@@ -1,9 +1,9 @@
 package com.sgpembalagens.repository;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.sgpembalagens.domain.Telefone;
 
-public interface TelefoneDao extends CrudRepository<Telefone, Long> {
+public interface TelefoneDao extends JpaRepository<Telefone, Long> {
 
 }

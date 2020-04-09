@@ -1,9 +1,9 @@
 package com.sgpembalagens.repository;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.sgpembalagens.domain.Fornecedor;
 
-public interface FornecedorDao extends CrudRepository<Fornecedor, Long> {
+public interface FornecedorDao extends JpaRepository<Fornecedor, Long> {
 
 }

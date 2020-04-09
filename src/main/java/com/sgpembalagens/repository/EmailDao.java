@@ -1,9 +1,9 @@
 package com.sgpembalagens.repository;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.sgpembalagens.domain.Email;
 
-public interface EmailDao extends CrudRepository<Email, Long> {
+public interface EmailDao extends JpaRepository<Email, Long> {
 
 }
